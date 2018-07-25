@@ -81,9 +81,13 @@ h1 {
 }
 .header-text-alternate {
 	font-size: 3.5rem;
-	background: linear-gradient(to right, rgb(255, 255, 255), rgb(140, 140, 140));
+	background: linear-gradient(to right, rgb(255, 255, 255), rgb(185, 185, 185));
 	-webkit-background-clip: text;
 	color: transparent;
+	padding-bottom: .8rem;
+}
+.header-shadow {
+	text-shadow: 2px 6px 4px rgba(0,0,0,0.4);
 }
 .container {
 	display: block;
@@ -117,19 +121,56 @@ h1 {
 	position: relative;
 	background: linear-gradient(rgb(155, 113, 7), rgb(104, 76, 5));
 	color: ghostwhite;
-	padding: 5rem;
+	padding: 4rem;
 	width: 100%;
 	height: auto;
-	font-size: 1.2rem;
+	font-size: 1.5rem;
+	line-height: 1.8rem;
 }
-.box1 {
+.row {
+	display: block;
+	position: relative;
+	max-width: 120rem;
+	margin: 0 5%;
+}
+.col-1-of-2:not(:last-child) {
 	float: left;
-	padding: 5px;
-	width: 43%;
-	height: auto;
-	margin-right: 3%;
-	border-right: ghostwhite solid 1px;
-	box-sizing: border-box;
+	padding: .4rem;
+	width: calc((100% - 8rem) /2);
+	margin: 0 8.5% 0 5%;
+
+}
+.golden-circle {
+	margin: 10vh auto;
+	display: block;
+}
+.golden-circle-header {
+	display: block;
+	position: relative;
+	left: 40%;
+	margin-bottom: 1.5rem;
+}
+.golden-circle-list {
+	list-style: none;
+	position: relative;
+	display: inline-block;
+	width: 30%;
+	left: 15%;
+	margin-top: 1.5%;
+	float: left;
+	line-height: 3rem;
+	font-size: 1.6rem;
+}
+.strong {
+	font-size: 1.8rem;
+	text-transform: uppercase;
+}
+.golden-circle-image {
+	display: inline-block;
+	position: relative;
+	width: 200px;
+	height: 200px;
+	left: 28%;
 }
 
 body {
