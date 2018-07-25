@@ -73,7 +73,64 @@ h1 {
 	position: relative;
 	left: 22%;
 }
-
+.header-text-tertiary {
+	font-size: 3.5rem;
+	background: linear-gradient(to right, rgb(155, 113, 7), rgb(104, 76, 5));
+	-webkit-background-clip: text;
+	color: transparent;
+}
+.header-text-alternate {
+	font-size: 3.5rem;
+	background: linear-gradient(to right, rgb(255, 255, 255), rgb(140, 140, 140));
+	-webkit-background-clip: text;
+	color: transparent;
+}
+.container {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+.learning-style {
+	background-color: #f9f9f9;
+	margin-top: -15vh;
+	padding: 3.5rem;
+	z-index: -1;
+}
+.learning-header {
+	display: block;
+	position: absolute;
+	top: 40%;
+	left: 25%;
+}
+.learning-chart {
+	display: block;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	width: 500px;
+	height: 300px;
+	padding-bottom: 1.5rem;
+}
+.features {
+	display: block;
+	position: relative;
+	background: linear-gradient(rgb(155, 113, 7), rgb(104, 76, 5));
+	color: ghostwhite;
+	padding: 5rem;
+	width: 100%;
+	height: auto;
+	font-size: 1.2rem;
+}
+.box1 {
+	float: left;
+	padding: 5px;
+	width: 43%;
+	height: auto;
+	margin-right: 3%;
+	border-right: ghostwhite solid 1px;
+	box-sizing: border-box;
+}
 
 body {
 	box-sizing: border-box;
