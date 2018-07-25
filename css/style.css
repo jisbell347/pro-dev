@@ -1,0 +1,82 @@
+*,
+*::after,
+*::before {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: inherit;
+}
+html {
+	/*This defines what 1 rem is */
+	font-size: 62.5%;
+}
+.navigation{
+	height: 4rem;
+	width: 100%;
+	display: block;
+	position: relative;
+	background: linear-gradient(rgb(155, 113, 7), rgb(104, 76, 5));
+	color: ghostwhite;
+}
+.navigation-update {
+	font-size: 1.4rem;
+	text-align: center;
+	margin: auto;
+	float: left;
+	position: relative;
+	padding: 10px;
+}
+.navigation-item{
+	display: inline-block;
+	position: relative;
+	float: right;
+	padding: 10px;
+	margin-left: 5px;
+	text-align: center;
+	list-style: none;
+	background: linear-gradient(rgb(155, 113, 7), rgb(104, 76, 5));
+	font-size: 1.6rem;
+	border-left: #703826 solid 1px;
+	box-shadow: -6px 8px 8px rgba(0, 0, 0, 0.2);
+}
+.navigation-item a {
+	color: ghostwhite;
+	text-decoration: none;
+}
+.header {
+	height: 75vh;
+	background-image: url("https://www.healthline.com/hlcmsresource/images/topic_centers/Food-Nutrition/Coffee1-banner.jpg");
+	background-size: cover;
+	position: relative;
+	background-position: top;
+	margin-bottom: 5rem;
+
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 65vh, 0 100%);
+	clip-path: polygon(0 0, 100% 0, 100% 65vh, 0 100%);
+}
+h1 {
+	color: ghostwhite;
+}
+.header-box {
+	padding: 3rem;
+	top: 50%;
+	left: 50%;
+}
+.header-text-primary {
+	font-size: 8rem;
+	display: block;
+	position: relative;
+	left: 33.33%;
+}
+.header-text-secondary {
+	font-size: 4.5rem;
+	display: block;
+	position: relative;
+	left: 22%;
+}
+
+
+body {
+	box-sizing: border-box;
+	padding: 3rem;
+	font-size: 1.5rem;
+}
