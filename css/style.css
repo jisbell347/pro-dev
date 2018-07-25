@@ -126,18 +126,25 @@ h1 {
 	height: 45vh;
 	font-size: 1.5rem;
 	line-height: 1.8rem;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%);
+
 }
 .row {
 	display: block;
 	position: relative;
 	max-width: 120rem;
 	margin: 0 5%;
+	top: 10%;
+	left: 45%;
+	transform: translate(-50%);
 }
 .col-1-of-2:not(:last-child) {
 	float: left;
 	padding: .4rem;
 	width: calc((100% - 8rem) /2);
-	margin: 0 8.5% 0 5%;
+	margin: 0 10% 0 1.5%;
 
 }
 .features-element {
