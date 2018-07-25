@@ -86,9 +86,7 @@ h1 {
 	color: transparent;
 	padding-bottom: .8rem;
 }
-.header-shadow {
-	text-shadow: 2px 6px 4px rgba(0,0,0,0.4);
-}
+
 .container {
 	display: block;
 	position: relative;
@@ -97,24 +95,24 @@ h1 {
 }
 .learning-style {
 	background-color: #f9f9f9;
+	height: 65vh;
 	margin-top: -15vh;
 	padding: 3.5rem;
-	z-index: -1;
 }
 .learning-header {
 	display: block;
 	position: absolute;
-	top: 40%;
+	top: 50%;
 	left: 25%;
 }
 .learning-chart {
 	display: block;
 	position: relative;
+	margin-top: 4.5%;
 	top: 50%;
 	left: 50%;
 	width: 500px;
 	height: 300px;
-	padding-bottom: 1.5rem;
 }
 .features {
 	display: block;
@@ -129,6 +127,10 @@ h1 {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%);
+	margin-top: -5rem;
+
+	-webkit-clip-path: polygon(0 15%, 100% 0%, 100% 85%, 0 100%);
+	clip-path: polygon(0 15%, 100% 0%, 100% 85%, 0 100%);
 
 }
 .row {
@@ -183,6 +185,38 @@ h1 {
 	width: 220px;
 	height: 220px;
 	left: 32%;
+}
+
+.elevator-pitch {
+	margin-top: -7vh;
+	height: 70vh;
+	display: block;
+	position: relative;
+	background: linear-gradient(rgb(155, 113, 7), rgb(104, 76, 5));
+	text-align: center;
+	width: 100%;
+	padding: 5rem;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%);
+
+	-webkit-clip-path: polygon(0 15%, 100% 0%, 100% 85%, 0 100%);
+	clip-path: polygon(0 15%, 100% 0%, 100% 85%, 0 100%);
+}
+
+.elevator-pitch-version {
+	padding: 1rem;
+	margin: 1.6rem;
+	width: 65%;
+	display: block;
+	position: relative;
+	border: ghostwhite 1px solid;
+	left: 17%;
+
+}
+.elevator-text {
+	font-size: 1.8rem;
+	color: ghostwhite;
 }
 
 body {
