@@ -88,6 +88,14 @@ h1 {
 	color: transparent;
 	padding-bottom: .8rem;
 }
+@media screen and (max-width: 900px)  {
+	.header-text-alternate {
+		font-size: 2.6rem;
+	}
+	.elevator-pitch-version {
+		font-size: .8rem;
+	}
+}
 
 .container {
 	display: block;
@@ -205,12 +213,14 @@ h1 {
 	-webkit-clip-path: polygon(0 15%, 100% 0%, 100% 85%, 0 100%);
 	clip-path: polygon(0 15%, 100% 0%, 100% 85%, 0 100%);
 }
-
+.elevator-pitch-header {
+	margin-top: 1.5%;
+}
 .elevator-pitch-version {
 	padding: 1rem;
 	margin: 1.6rem;
 	height: 50%;
-	width: 65%;
+	width: 60%;
 	display: block;
 	position: relative;
 	border: ghostwhite 1px solid;
@@ -220,8 +230,13 @@ h1 {
 .elevator-text {
 	font-size: 1.8rem;
 	color: ghostwhite;
+
 }
 
+table {
+	table-layout: fixed;
+	border-collapse: collapse;
+}
 .online-presence {
 	display: block;
 	width: 100%;
@@ -232,7 +247,20 @@ h1 {
 }
 .online-table-head {
 	color: ghostwhite;
-	background-color: #703826;
+	background: linear-gradient(rgb(155, 113, 7), rgb(104, 76, 5));
+	height: 2.5em;
+	width: 5em;
+	padding: .5em;
+	margin: .5em;
+	text-align: center;
+	font-weight: bold;
+}
+.online-table-data {
+	color: #974e1e;
+	background-color: #f9f9f9;
+	border: sienna 1px solid;
+	text-align: center;
+
 }
 
 body {
