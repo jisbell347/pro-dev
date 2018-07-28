@@ -88,6 +88,9 @@ h1 {
 .header-box h1 {
 	text-align: center;
 }
+/****************************************
+Styles for various headers
+ ****************************************/
 .header-text-primary {
 	display: inline-block;
 	font-size: 8rem;
@@ -109,13 +112,20 @@ h1 {
 	-webkit-background-clip: text;
 	color: transparent;
 	padding-bottom: .8rem;
-}
+}/***************************************
+Media queries
+****************************************/
+
 @media screen and (max-width: 900px)  {
 	.header-text-alternate {
 		font-size: 2.6rem;
 	}
 	.elevator-pitch-version {
 		font-size: .8rem;
+	}
+	.learning-chart {
+		width: 300px;
+		height: 150px;
 	}
 }
 /**************************************
@@ -134,23 +144,22 @@ Learning Style Section
 	background-color: #f9f9f9;
 	height: 65vh;
 	margin-top: -25vh;
-	padding: 3.5rem;
+	padding: 5rem;
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
 }
 .learning-header {
 	display: block;
 	position: absolute;
 	top: 50%;
-	left: 5%;
+	left: 15%;
 }
 .learning-chart {
 	display: block;
 	position: relative;
 	margin-top: 4.5%;
 	top: 50%;
-	left: 50%;
+	left: 65%;
 	width: 500px;
 	height: 300px;
 }
@@ -162,7 +171,7 @@ Features Section
 	justify-content: center;
 	align-items: center;
 	position: relative;
-	background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXvy111hRYGLMA5KtyT9NW4X6UQPowFfBFnCLoi6tXEha9ym8PIg"), no-repeat;
+	background: url("https://www.office-coffee.co.uk/public/images/sections/coffee-cup-on-decking.jpg"), no-repeat;
 	background-size: cover;
 	color: ghostwhite;
 	padding: 4rem;
@@ -306,6 +315,10 @@ th, td {
 	text-align: center;
 	font-weight: bold;
 }
+.online-table-data:nth-child(1) {
+	font-weight: bold;
+	font-size: 1.6rem;
+}
 .online-table-data {
 	color: #974e1e;
 	background-color: #f9f9f9;
@@ -322,6 +335,7 @@ Visual Speaks Section
 	flex: available;
 	position: relative;
 	height: 75vh;
+	margin-top: -15vh;
 	width: 100%;
 	justify-content: center;
 	align-items: center;
