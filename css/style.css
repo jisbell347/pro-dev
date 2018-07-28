@@ -225,6 +225,7 @@ Golden Circle Section
 	float: left;
 	line-height: 3rem;
 	font-size: 1.6rem;
+	color: #974e1e;
 }
 .strong {
 	font-size: 1.8rem;
@@ -357,6 +358,10 @@ Visual Speaks Section
 	justify-content: center;
 	align-items: center;
 	width: 100%;
+}
+
+.visual-content span {
+	font-weight: bold;
 }
 .visual-speaks-text {
 	padding: 2rem;
