@@ -1,3 +1,6 @@
+/*****************************************
+Global styling
+**************************************** */
 *,
 *::after,
 *::before {
@@ -11,6 +14,15 @@ html {
 	width: 100%;
 	height: auto;
 }
+
+body {
+	box-sizing: border-box;
+	padding: 3rem;
+	font-size: 1.5rem;
+}
+/******************************************
+Navigation
+****************************************** */
 .navigation{
 	height: 4rem;
 	width: 100%;
@@ -44,13 +56,20 @@ html {
 	color: ghostwhite;
 	text-decoration: none;
 }
+/*************************************************
+Header
+*********************************************** */
 .header {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
 	height: 75vh;
 	background-image: url("https://www.healthline.com/hlcmsresource/images/topic_centers/Food-Nutrition/Coffee1-banner.jpg");
 	background-size: cover;
 	position: relative;
 	background-position: top;
 	margin-bottom: 5rem;
+	text-align: center;
 
 	-webkit-clip-path: polygon(0 0, 100% 0, 100% 65vh, 0 100%);
 	clip-path: polygon(0 0, 100% 0, 100% 65vh, 0 100%);
@@ -60,10 +79,10 @@ h1 {
 }
 .header-box {
 	display: flex;
+	flex-direction: column;
 	justify-content: space-between;
 	padding: 3rem;
-	top: 50%;
-	left: 50%;
+	color: #f9f9f9;
 }
 
 .header-box h1 {
@@ -77,8 +96,6 @@ h1 {
 }
 .header-text-secondary {
 	font-size: 4.5rem;
-	display: inline-block;
-	position: relative;
 }
 .header-text-tertiary {
 	font-size: 3.5rem;
@@ -101,18 +118,26 @@ h1 {
 		font-size: .8rem;
 	}
 }
-
+/**************************************
+Container
+************************************** */
 .container {
 	display: block;
 	position: relative;
 	width: 100%;
 	height: auto;
 }
+/*****************************************
+Learning Style Section
+*************************************** */
 .learning-style {
 	background-color: #f9f9f9;
 	height: 65vh;
 	margin-top: -25vh;
 	padding: 3.5rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 .learning-header {
 	display: block;
@@ -129,12 +154,16 @@ h1 {
 	width: 500px;
 	height: 300px;
 }
+/********************************************
+Features Section
+***************************************** */
 .features {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	position: relative;
-	background: linear-gradient(rgb(155, 113, 7), rgb(104, 76, 5));
+	background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXvy111hRYGLMA5KtyT9NW4X6UQPowFfBFnCLoi6tXEha9ym8PIg"), no-repeat;
+	background-size: cover;
 	color: ghostwhite;
 	padding: 4rem;
 	width: 100%;
@@ -164,6 +193,9 @@ h1 {
 .features-element {
 	margin-bottom: .8rem;
 }
+/***************************************
+Golden Circle Section
+************************************* */
 .golden-circle {
 	margin: 10vh auto;
 	display: flex;
@@ -200,7 +232,9 @@ h1 {
 	height: 220px;
 	left: 32%;
 }
-
+/*******************************************
+Elevator Pitch Section
+**************************************** */
 .elevator-pitch {
 	margin-top: -7vh;
 	height: 80vh;
@@ -208,7 +242,8 @@ h1 {
 	justify-content: center;
 	align-items: center;
 	position: relative;
-	background: linear-gradient(rgb(155, 113, 7), rgb(104, 76, 5));
+	background: url("http://www.sntraders.com/wp-content/uploads/2015/12/antique-heart-pine-floor-510x600.jpg"), no-repeat;
+	background-size: cover;
 	text-align: center;
 	width: 100%;
 	padding: 5rem;
@@ -235,9 +270,11 @@ h1 {
 }
 .elevator-text {
 	font-size: 1.8rem;
-	color: ghostwhite;
+	color: white;
 }
-
+/**************************************
+Online Presence Section
+************************************** */
 table {
 	table-layout: fixed;
 	border-collapse: collapse;
@@ -250,9 +287,6 @@ th, td {
 	margin: .5em;
 }
 .online-presence {
-	background-image: url("/images/white-wood.jpeg");
-	background-size: cover;
-	background-repeat: no-repeat;
 	display: block;
 	width: 100%;
 	height: 75vh;
@@ -280,9 +314,42 @@ th, td {
 	width: 18em;
 	height: 3em;
 }
+/***************************************
+Visual Speaks Section
+************************************** */
+.visual-speaks {
+	display: inline-flex;
+	flex: available;
+	position: relative;
+	height: 75vh;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	background-color: #974e1e;
+	color: #f9f9f9;
 
-body {
-	box-sizing: border-box;
-	padding: 3rem;
+	-webkit-clip-path: polygon(0 15%, 100% 0%, 100% 85%, 0 100%);
+	clip-path: polygon(0 15%, 100% 0%, 100% 85%, 0 100%);
+}
+.visual-header {
+	text-align: center;
+	margin-top: 0;
+}
+.visual-image {
+	width: 250px;
+	height: 275px;
+	padding: 2rem;
+	float: left;
+}
+.visual-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding: 2rem;
+}
+.visual-speaks-text {
+	padding: 10px;
 	font-size: 1.5rem;
 }
+
