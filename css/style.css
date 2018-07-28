@@ -264,7 +264,7 @@ Elevator Pitch Section
 	clip-path: polygon(0 15%, 100% 0%, 100% 85%, 0 100%);
 }
 .elevator-pitch-header {
-	margin-top: 1.5%;
+	padding-top: 1.5%;
 }
 .elevator-pitch-version {
 	padding: 1rem;
@@ -366,5 +366,44 @@ Visual Speaks Section
 .visual-speaks-text {
 	padding: 10px;
 	font-size: 1.5rem;
+}
+
+.reflections {
+	display: flex;
+	justify-content: center;
+	padding: 5rem;
+	padding-top: 25rem;
+	align-items: center;
+	margin-top: -5vh;
+	height: 60vh;
+	width: 100%;
+}
+
+.reflections-header {
+	text-align: center;
+	padding: 5rem;
+}
+.reflections-content {
+	padding: 0 5rem;
+}
+.reflections-content h4 {
+	padding: 1rem 0;
+	font-size: 2rem;
+	text-align: center;
+	color: darkgoldenrod;
+}
+
+.reflections-week {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 60%;
+	margin: 1% 20%;
+	border: darkgoldenrod 2px solid;
+}
+
+.reflections-week p {
+	color: #974e1e;
+	padding: 0 10px 15px;
 }
 
