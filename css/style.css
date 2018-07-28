@@ -243,7 +243,7 @@ Elevator Pitch Section
 **************************************** */
 .elevator-pitch {
 	margin-top: -7vh;
-	height: 90vh;
+	height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -276,7 +276,7 @@ Elevator Pitch Section
 
 }
 .elevator-text {
-	font-size: 1.8rem;
+	font-size: 1.5rem;
 	color: white;
 }
 /**************************************
@@ -336,7 +336,7 @@ Visual Speaks Section
 .visual-speaks {
 	display: flex;
 	position: relative;
-	height: 75vh;
+	height: 100vh;
 	margin-top: -13vh;
 	width: 100%;
 	justify-content: center;
