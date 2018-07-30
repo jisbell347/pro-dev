@@ -70,6 +70,7 @@ Header
 	text-align: center;
 
 	-webkit-clip-path: polygon(0 0, 100% 0, 100% 65vh, 0 100%);
+	-moz-clip-path: polygon(0 0, 100% 0 , 100% 65vh, 0 100%);
 	clip-path: polygon(0 0, 100% 0, 100% 65vh, 0 100%);
 }
 h1 {
@@ -110,7 +111,11 @@ Styles for various headers
 	-webkit-background-clip: text;
 	color: transparent;
 	padding-bottom: .8rem;
-}/***************************************
+}
+.shadow {
+	text-shadow: 10px 5px 10px rgba(0,0,0, 0.8);
+}
+/***************************************
 Media queries
 ****************************************/
 
@@ -189,6 +194,7 @@ Features Section
 	margin-top: -5rem;
 
 	-webkit-clip-path: polygon(0 15%, 100% 0%, 100% 85%, 0 100%);
+	-moz-clip-path: polygon(0 0, 100% 0 , 100% 65vh, 0 100%);
 	clip-path: polygon(0 15%, 100% 0%, 100% 85%, 0 100%);
 
 }
@@ -266,6 +272,7 @@ Elevator Pitch Section
 	margin-bottom: 1rem;
 
 	-webkit-clip-path: polygon(0 15%, 100% 0%, 100% 85%, 0 100%);
+	-moz-clip-path: polygon(0 0, 100% 0 , 100% 65vh, 0 100%);
 	clip-path: polygon(0 15%, 100% 0%, 100% 85%, 0 100%);
 }
 .elevator-pitch h4 {
@@ -357,6 +364,7 @@ Visual Speaks Section
 	color: #f9f9f9;
 
 	-webkit-clip-path: polygon(0 15%, 100% 0%, 100% 85%, 0 100%);
+	-moz-clip-path: polygon(0 0, 100% 0 , 100% 65vh, 0 100%);
 	clip-path: polygon(0 15%, 100% 0%, 100% 85%, 0 100%);
 }
 .visual-header {
