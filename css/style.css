@@ -115,15 +115,29 @@ Media queries
 ****************************************/
 
 @media screen and (max-width: 900px)  {
-	.header-text-alternate {
+	.navigation-item, .navigation-update{
+		font-size: 1rem;
+		padding-right: 5px;
+		margin-left: 0;
+	}
+	.header-text-primary {
+		font-size: 6rem;
+	}
+	.header-text-alternate, .header-text-tertiary {
 		font-size: 2.6rem;
 	}
-	.elevator-pitch-version {
-		font-size: .8rem;
+	.elevator-text, .golden-circle-element, .features-element {
+		font-size: 1rem;
 	}
 	.learning-chart {
 		width: 300px;
 		height: 150px;
+	}
+	.online-table-data, .online-table-head {
+		font-size: 1rem;
+	}
+	.reflections {
+		font-size: 1rem;
 	}
 }
 /**************************************
@@ -353,8 +367,8 @@ Visual Speaks Section
 	margin-top: 5%;
 }
 .visual-image {
-	width: 220px;
-	height: 250px;
+	width: 150px;
+	height: 200px;
 	padding: 2rem;
 	float: left;
 }
