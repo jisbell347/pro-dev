@@ -5,23 +5,28 @@
 		<title>Joe Isbell Pro Dev</title>
 		<link rel="stylesheet" href="./css/style.css"  type="text/css"/>
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
 	</head>
 	<body>
 		<header>
 			<nav class="navigation">
 				<p class="navigation-update">Last updated: July 28, 2018</p>
 				<p class="navigation-update">Career Buddy: Asya Nikitina</p>
-				<ul class="navigation-list">
-					<li class="navigation-item"><a href="https://github.com/jisbell347" >Github <i class="fab fa-github"></i></a></li>
-					<li class="navigation-item"><a href="https://www.linkedin.com/in/joseph-isbell-5267b2163">LinkedIn <i class="fab fa-linkedin-in"></i></a></li>
-					<li class="navigation-item"><a href="https://twitter.com/JoeIsbell8">Twitter <i class="fab fa-twitter"></i></a></li>
-					<li class="navigation-item"><a href="./Joseph%20Isbell%20Resume.pdf">Professional Resume <i class="fas fa-id-card"></i></a></li>
-				</ul>
+				<div class="topnav" id="toggleNav">
+					<a href="https://github.com/jisbell347" class="navigation-item">Github <i class="fab fa-github"></i></a>
+					<a href="https://www.linkedin.com/in/joseph-isbell-5267b2163" class="navigation-item">LinkedIn <i class="fab fa-linkedin-in"></i></a>
+					<a href="https://twitter.com/JoeIsbell8" class="navigation-item">Twitter <i class="fab fa-twitter"></i></a>
+					<a href="./Joseph%20Isbell%20Resume.pdf" class="navigation-item">Professional Resume <i class="fas fa-id-card"></i></a>
+					<a href="javascript:void(0);" class="icon" onclick="toggleNav()">
+						<i class="fa fa-bars"></i>
+					</a>
+				</div>
+
 			</nav>
 		</header>
 		<main>
 			<section class="header">
-				<div class="header-box">
+				<div class="header-box shadow">
 					<h1 class="header-text-primary">Joseph Isbell's</h1>
 					<h2 class="header-text-secondary">Professional Development: Employment Path</h2>
 				</div>
@@ -168,5 +173,7 @@
 				<a href="https://twitter.com/JoeIsbell8"><i class="fab fa-twitter"></i></a>
 			</div>
 		</footer>
+
+		<script src="js/pro-dev.js"></script>
 	</body>
 </html>
