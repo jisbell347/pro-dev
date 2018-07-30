@@ -127,7 +127,7 @@ Media queries
 		font-size: 2.6rem;
 	}
 	.elevator-text, .golden-circle-element, .features-element {
-		font-size: 1rem;
+		font-size: 1rem !important;
 	}
 	.learning-chart {
 		width: 300px;
@@ -135,6 +135,9 @@ Media queries
 	}
 	.online-table-data, .online-table-head {
 		font-size: 1rem;
+	}
+	.visual-speaks-text {
+		font-size: 1rem !important;
 	}
 	.reflections {
 		font-size: 1rem;
@@ -171,8 +174,8 @@ Learning Style Section
 	margin-top: 4.5%;
 	top: 50%;
 	left: 50%;
-	width: 500px;
-	height: 300px;
+	width: 350px;
+	height: 200px;
 }
 /********************************************
 Features Section
