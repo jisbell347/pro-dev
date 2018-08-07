@@ -336,6 +336,8 @@ Elevator Pitch Section
 	-moz-clip-path: polygon(0 0, 100% 0 , 100% 65vh, 0 100%);
 	clip-path: polygon(0 15%, 100% 0%, 100% 85%, 0 100%);
 }
+
+
 .elevator-pitch h4 {
 	margin-top: 2%;
 	padding-bottom: 1.5%;
@@ -558,4 +560,16 @@ footer {
 	color: #f9f9f9;
 	font-size: 1.7rem;
 	padding: 0 2rem;
+}
+
+@media screen and (max-width: 900px)  {
+	.elevator-pitch, .features, .header, .team-game, .visual-speaks {
+		-webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%);
+		-moz-clip-path: polygon(0 0, 100% 0 , 100% 100%, 0 100%);
+		clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%);
+	}
+
+	.reflections {
+		height: 100vh;
+	}
 }
