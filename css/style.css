@@ -345,8 +345,8 @@ Elevator Pitch Section
 }
 .elevator-pitch-version {
 	padding: 1rem;
-	margin: 1.6rem;
-	height: 50%;
+	margin: 1.4rem;
+	height: 45%;
 	width: 60%;
 	display: block;
 	position: relative;
@@ -355,7 +355,7 @@ Elevator Pitch Section
 
 }
 .elevator-text {
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 	color: white;
 }
 /**************************************
